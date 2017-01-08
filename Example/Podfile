@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'EHSideMenuController_Example' do
+  pod 'EHSideMenuController', :path => '../'
+
+  target 'EHSideMenuController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
