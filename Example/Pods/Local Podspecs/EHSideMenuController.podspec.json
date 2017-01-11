@@ -1,9 +1,9 @@
 {
   "name": "EHSideMenuController",
-  "version": "0.1.0",
-  "summary": "A short description of EHSideMenuController.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/EHSideMenuController",
+  "version": "1.0.0",
+  "summary": "a side menu controller.",
+  "homepage": "https://github.com/waterflowseast/EHSideMenuController",
+  "screenshots": "https://github.com/waterflowseast/EHSideMenuController/raw/master/screenshots/1.png",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,11 @@
     "Eric Huang": "WaterFlowsEast@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/EHSideMenuController.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/waterflowseast/EHSideMenuController.git",
+    "tag": "1.0.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "7.0"
   },
   "source_files": "EHSideMenuController/Classes/**/*"
 }

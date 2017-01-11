@@ -2,6 +2,7 @@ use_frameworks!
 
 target 'EHSideMenuController_Example' do
   pod 'EHSideMenuController', :path => '../'
+  pod 'Masonry', '~> 0.6.4'
 
   target 'EHSideMenuController_Tests' do
     inherit! :search_paths
