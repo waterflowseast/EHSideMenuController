@@ -5,11 +5,21 @@
 [![License](https://img.shields.io/cocoapods/l/EHSideMenuController.svg?style=flat)](http://cocoapods.org/pods/EHSideMenuController)
 [![Platform](https://img.shields.io/cocoapods/p/EHSideMenuController.svg?style=flat)](http://cocoapods.org/pods/EHSideMenuController)
 
+## Summary
+
+a side menu controller.
+
+## Screenshots
+
+![](https://github.com/waterflowseast/EHSideMenuController/raw/master/screenshots/1.png)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+
+iOS 7.0+
 
 ## Installation
 
