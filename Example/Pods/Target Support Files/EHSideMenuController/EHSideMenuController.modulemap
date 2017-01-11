@@ -1,0 +1,6 @@
+framework module EHSideMenuController {
+  umbrella header "EHSideMenuController-umbrella.h"
+
+  export *
+  module * { export * }
+}

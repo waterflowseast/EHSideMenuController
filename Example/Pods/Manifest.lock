@@ -1,0 +1,16 @@
+PODS:
+  - EHSideMenuController (0.1.0)
+
+DEPENDENCIES:
+  - EHSideMenuController (from `../`)
+
+EXTERNAL SOURCES:
+  EHSideMenuController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EHSideMenuController: d5a6ee863917d078e8b06d8c5c387a3fe3834e52
+
+PODFILE CHECKSUM: 81652e67dd9bca62780d22e38b54dbecfd979bff
+
+COCOAPODS: 1.0.0
