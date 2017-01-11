@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "summary": "a side menu controller.",
   "homepage": "https://github.com/waterflowseast/EHSideMenuController",
-  "screenshots": "https://github.com/waterflowseast/EHSideMenuController/raw/master/screenshots/1.png",
+  "screenshots": [
+    "https://github.com/waterflowseast/EHSideMenuController/raw/master/screenshots/1.png",
+    "https://github.com/waterflowseast/EHSideMenuController/raw/master/screenshots/2.png"
+  ],
   "license": {
     "type": "MIT",
     "file": "LICENSE"

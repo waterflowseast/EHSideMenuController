@@ -12,6 +12,7 @@ a side menu controller.
 ## Screenshots
 
 ![](https://github.com/waterflowseast/EHSideMenuController/raw/master/screenshots/1.png)
+![](https://github.com/waterflowseast/EHSideMenuController/raw/master/screenshots/2.png)
 
 ## Example
 
