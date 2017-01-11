@@ -7,12 +7,27 @@
 //
 
 #import "EHAppDelegate.h"
+#import <EHSideMenuController/EHSideMenuController.h>
+#import "EHViewController.h"
+#import "EHDemoLeftMenuViewController.h"
+
+@interface EHAppDelegate () <EHSideMenuControllerDelegate>
+
+@end
 
 @implementation EHAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:[[EHViewController alloc] init]];
+    EHDemoLeftMenuViewController *demoLeftMenu = [[EHDemoLeftMenuViewController alloc] init];
+    EHSideMenuController *sideMenuController = [[EHSideMenuController alloc] initWithContentViewController:navController menuViewController:demoLeftMenu];
+    sideMenuController.delegate = self;
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController = sideMenuController;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
@@ -41,6 +56,24 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+#pragma mark - EHSideMenuControllerDelegate
+
+- (void)sideMenuController:(EHSideMenuController *)sideMenuController willShowMenu:(UIViewController *)menu {
+    NSLog(@"==> willShowMenu");
+}
+
+- (void)sideMenuController:(EHSideMenuController *)sideMenuController didShowMenu:(UIViewController *)menu {
+    NSLog(@"==> didShowMenu");
+}
+
+- (void)sideMenuController:(EHSideMenuController *)sideMenuController willHideMenu:(UIViewController *)menu {
+    NSLog(@"==> willHideMenu");
+}
+
+- (void)sideMenuController:(EHSideMenuController *)sideMenuController didHideMenu:(UIViewController *)menu {
+    NSLog(@"==> didHideMenu");
 }
 
 @end
